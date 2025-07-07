@@ -59,6 +59,12 @@ Restart terminal app or reload tmux config (if already in a tmux session):
 tmux source ~/.config/tmux/tmux.conf
 ```
 
+## Uninstallation
+```bash
+rm -rvf ~/.config/tmux/mooks #Removes mooks only
+# ONLY RUN IF NO EXISTING TMUX CONFIGURATION in respective location: rm ~/.config/tmux/
+```
+
 ## NixOS
 
 Coming soon
